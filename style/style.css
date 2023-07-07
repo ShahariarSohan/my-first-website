@@ -21,7 +21,7 @@
     margin-left:40px;
     font-size:20px;
 }
-.section1{
+.banner-area1{
     background-image: url("/images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53,53,53));
     height:100vh;
     display:flex;
@@ -49,15 +49,14 @@
 #banner1{
     width:300px;
 }
-.section2{
+.banner-area2{
     display:flex;
-    height:70vh;
     align-items: center;
     justify-content: space-around;
 }
-#heading2{
+.heading-area1{
     text-align: center;
-    font-size:40px;
+    font-size:20px;
     margin:30px 0;
     
 }
@@ -81,4 +80,36 @@ hr{
     border:none;
     padding:10px;
     border-radius:2px;
+}
+.about-area{
+    height:70vh;
+}
+.service-area{
+    height: 500px;
+}
+.icon-area{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.icon-small{
+    width:50px;
+    
+    
+}
+.box1{
+    background-color: #636e72;
+    width:150px;
+    height:200px;
+}
+.box2{
+    background-color: #636e72;
+    width:150px;
+    height:200px;
+}
+.box3{
+    background-color: #636e72;
+    width:150px;
+    height:200px;
 }
